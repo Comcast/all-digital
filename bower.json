@@ -1,0 +1,16 @@
+{
+  "name": "all-digital",
+  "version": "1.9.2",
+  "description": "CSS for All Digital",
+  "main": "assets/sass/_all-digital.scss",
+  "keywords": [
+    "all-digital"
+  ],
+  "authors": [
+    "Comcast"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*"
+  ]
+}

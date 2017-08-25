@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+  .desktop {
+    display: none !important;
+  }
+}
+
+@include respond-to(768) {
+  .mobile {
+    display: none !important;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
