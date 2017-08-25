@@ -1,7 +1,0 @@
-// ==========================================================================
-// @mixin font-size
-// ==========================================================================
-@mixin font-size($target-size, $base: $base-font-size) {
-  font-size: $target-size * 1px; // fallback
-  font-size: $target-size / $base * 1rem;
-}
