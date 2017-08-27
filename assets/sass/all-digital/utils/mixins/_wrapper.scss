@@ -1,9 +1,0 @@
-@mixin wrapper {
-  margin: 0 auto;
-  padding: 0 $wrapper-gutters;
-  max-width: $wrapper-max-width;
-
-  @include respond-to(768) {
-    padding: 0 $wrapper-gutters-768;
-  }
-}

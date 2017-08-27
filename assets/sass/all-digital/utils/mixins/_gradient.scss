@@ -1,4 +1,0 @@
-@mixin gradient($start-color, $end-color, $start-position: 0%, $end-position: 100%) {
-  background-color: $start-color;
-  background-image: linear-gradient(top, $start-color $start-position, $end-color $end-position);
-}
