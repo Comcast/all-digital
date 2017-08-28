@@ -1,0 +1,87 @@
+.form-toggle {
+  margin-bottom: 12px;
+
+  .form-toggle__label {
+    // needs higher specifity
+    // to overcome all digital
+    display: block;
+  }
+}
+
+.form-toggle__input > input {
+  @include visually-hidden;
+}
+
+
+.form-toggle__label {
+  display: block;
+  position: relative;
+  outline: none;
+  user-select: none;
+  margin-bottom: 0;
+
+  &:before,
+  &:after {
+    display: block;
+  }
+
+  &:before {
+    width: 54px;
+    height: 30px;
+    background-color: $cool-grey8;
+    border-radius: 30px;
+    transition: background 0.4s;
+    content: 'OFF ';
+    line-height: 30px;
+    padding-left: 27px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    color: $white;
+  }
+
+  &:after {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    content: '';
+    background-color: $white;
+    border-radius: 100%;
+    transition: transform 0.4s;
+    top: 3px;
+    margin: 0 3px;
+  }
+
+  input:checked ~ & {
+    &:before {
+      background-color: $blue-sky;
+      content: 'ON ';
+      padding-right: 27px;
+      padding-left: 0;
+    }
+
+    &:after {
+      transform: translateX(24px);
+    }
+  }
+
+  input:disabled ~ & {
+    opacity: 0.8;
+  }
+
+  input:focus ~ & {
+    &:after {
+      animation: gradient 0.2s linear 1 forwards;
+    }
+  }
+}
+
+@keyframes gradient {
+  from {
+    box-shadow: inset 0 0 0 $blue-sky;
+  }
+
+  to {
+    box-shadow: inset 0 0 6px $blue-sky;
+  }
+}
