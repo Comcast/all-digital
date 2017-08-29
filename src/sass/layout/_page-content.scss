@@ -1,0 +1,17 @@
+.page-content {
+  position: relative;
+}
+
+.page-main {
+  padding-left: 210px;
+}
+
+.page-sidebar {
+  position: fixed;
+  top: 45px;
+  left: 0;
+  bottom: 0;
+  border-right: 1px solid $cool-grey6;
+  width: 210px;
+  padding: 12px;
+}
