@@ -6,7 +6,7 @@ const PageSidebar = () => {
     <aside class="page-sidebar">
       <p><b>All Digital</b> Styleguide</p>
 
-      <nav role="navigation">
+      <nav>
         <ul>
           <li>
             <Link to="/">
@@ -14,9 +14,7 @@ const PageSidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/">
-              Base
-            </Link>
+            Base
 
             <ul>
               <li>
@@ -32,14 +30,12 @@ const PageSidebar = () => {
             </ul>
           </li>
           <li>
-            <Link to="/">
-              Components
-            </Link>
+            Components
 
             <ul>
               <li>
-                <Link to="/base/typography">
-                  Typography
+                <Link to="/components/buttons">
+                  Buttons
                 </Link>
               </li>
             </ul>
