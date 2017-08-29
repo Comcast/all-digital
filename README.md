@@ -11,7 +11,7 @@ Welcome to the All Digital brought to you by Comcast.
 In your project:
 
 ```bash
-npm install git+ssh://git@github.com:Comcast/all-digital.git#v1.9.2
+npm install git+https://github.com/Comcast/all-digital.git#v1.10.0
 ```
 
 or
