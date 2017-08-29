@@ -1,0 +1,29 @@
+@import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
+
+@include xfinity-standard-thin;
+@include xfinity-standard-thin-italic;
+@include xfinity-standard-extra-light;
+@include xfinity-standard-extra-light-italic;
+@include xfinity-standard-light;
+@include xfinity-standard-light-italic;
+@include xfinity-standard-regular;
+@include xfinity-standard-regular-italic;
+@include xfinity-standard-medium;
+@include xfinity-standard-medium-italic;
+@include xfinity-standard-bold;
+@include xfinity-standard-bold-italic;
+@include xfinity-standard-condensed-medium;
+@include xfinity-standard-condensed-bold;
+
+@import '../../node_modules/all-digital/assets/sass/all-digital/vendors';
+@import '../../node_modules/all-digital/assets/sass/all-digital/utils';
+
+@import '../../node_modules/all-digital/assets/sass/all-digital/base';
+@import 'base';
+
+@import '../../node_modules/all-digital/assets/sass/all-digital/components';
+@import 'components';
+
+@import 'layout';
+
+@import '../../node_modules/all-digital/assets/sass/all-digital/keyframes';

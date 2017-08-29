@@ -1,8 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { render } from 'react-dom'
+import { browserHistory } from 'react-router'
+import { syncHistoryWithStore } from 'react-router-redux'
+import Root from './containers/Root'
+import configureStore from './store/configureStore'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+require('./sass/style.scss');
+
+const store = configureStore()
+const history = syncHistoryWithStore(browserHistory, store)
+
+render(
+  <Root store={store} history={history} />,
+  document.getElementById('root')
+)
