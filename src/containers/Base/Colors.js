@@ -10,9 +10,9 @@ class Colors extends Component {
       };
 
       return (
-        <div class="card-block-group__item">
-          <div class="card-block" style={style}>
-            <div class="card-block__name">
+        <div class="color-block-group__item">
+          <div class="color-block" style={style}>
+            <div class="color-block__name">
               {color.name}
             </div>
           </div>
@@ -21,7 +21,7 @@ class Colors extends Component {
     });
 
     return (
-      <div class="card-block-group">
+      <div class="color-block-group">
         {items}
       </div>
     )

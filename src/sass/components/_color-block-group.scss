@@ -1,7 +1,24 @@
 .color-block-group {
+  margin-bottom: 24px;
   display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 12px);
+  margin-left: -6px;
 }
 
 .color-block-group__item {
-  width: 50px;
+  padding: 6px;
+  flex-basis: 50%;
+
+  @include respond-to(480) {
+    flex-basis: 33.333%;
+  }
+
+  @include respond-to(768) {
+    flex-basis: 25%;
+  }
+
+  @include respond-to(1024) {
+    flex-basis: 20%;
+  }
 }

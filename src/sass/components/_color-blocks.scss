@@ -1,5 +1,9 @@
-.color-blocks {
-  padding-top: 50px;
+.color-block {
+  padding-top: 150px;
 }
 
-.color-blocks__name {}
+.color-block__name {
+  background: $cool-grey6;
+  border-top: 3px solid $black;
+  padding: 6px;
+}
