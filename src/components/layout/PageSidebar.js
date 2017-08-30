@@ -23,8 +23,18 @@ const PageSidebar = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/base/forms">
+                  Forms
+                </Link>
+              </li>
+              <li>
                 <Link to="/base/typography">
                   Typography
+                </Link>
+              </li>
+              <li>
+                <Link to="/base/headings">
+                  Headings
                 </Link>
               </li>
             </ul>

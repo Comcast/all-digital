@@ -31,6 +31,7 @@ class Colors extends Component {
     return (
       <PageSection>
         <h1>Colors</h1>
+        <hr />
 
         <h2>Brand Colors</h2>
         {this.renderColors(brandColors)}

@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <PageSection>
-        oh hi!
+        <h1>Overview</h1>
       </PageSection>
     )
   }

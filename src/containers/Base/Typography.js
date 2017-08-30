@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PageSection from '../../components/PageSection'
 
-class Colors extends Component {
+class Typography extends Component {
   render() {
     let preblock = `.post-title {
       margin: 0 0 5px;
@@ -12,7 +12,8 @@ class Colors extends Component {
 
     return (
       <PageSection>
-        <h1 class="display3">Typography</h1>
+        <h1>Typography</h1>
+        <hr />
 
         <h2>Headings</h2>
         <h1>Header one</h1>
@@ -181,4 +182,4 @@ class Colors extends Component {
   }
 }
 
-export default Colors;
+export default Typography;
