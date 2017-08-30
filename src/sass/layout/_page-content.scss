@@ -8,11 +8,11 @@
 
 .page-sidebar {
   position: fixed;
-  top: 45px;
+  padding: 57px 12px 12px;
+  top: 0;
   left: 0;
   bottom: 0;
   border-right: 1px solid $cool-grey6;
   width: 210px;
-  padding: 12px;
   background-color: rgba($white, 0.9);
 }

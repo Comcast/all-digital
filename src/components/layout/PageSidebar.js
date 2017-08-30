@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 const PageSidebar = () => {
   return (
     <aside class="page-sidebar">
-      <p><b>All Digital</b> Styleguide</p>
+      <p><b>All Digital Styleguide</b></p>
 
       <nav>
         <ul>
