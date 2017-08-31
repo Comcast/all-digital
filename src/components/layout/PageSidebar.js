@@ -44,6 +44,11 @@ const PageSidebar = () => {
 
             <ul>
               <li>
+                <Link to="/components/card-groups">
+                  Card Groups
+                </Link>
+              </li>
+              <li>
                 <Link to="/components/actions">
                   Actions
                 </Link>

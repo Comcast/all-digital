@@ -10,6 +10,7 @@ import Buttons from './containers/Components/Buttons'
 import Loading from './containers/Components/Loading'
 import Action from './containers/Components/Action'
 import Badges from './containers/Components/Badges'
+import CardGroup from './containers/Components/CardGroup'
 
 export default <Route path="/" component={App}>
   <IndexRoute component={Home} />
@@ -21,4 +22,5 @@ export default <Route path="/" component={App}>
   <Route path="/components/buttons" component={Buttons} />
   <Route path="/components/actions" component={Action} />
   <Route path="/components/loading" component={Loading} />
+  <Route path="/components/card-groups" component={CardGroup} />
 </Route>
