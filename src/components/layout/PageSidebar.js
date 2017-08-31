@@ -48,6 +48,11 @@ const PageSidebar = () => {
                   Buttons
                 </Link>
               </li>
+              <li>
+                <Link to="/components/loading">
+                  Loading
+                </Link>
+              </li>
             </ul>
           </li>
         </ul>
