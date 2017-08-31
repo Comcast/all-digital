@@ -8,6 +8,7 @@ import Forms from './containers/Base/Forms'
 import Headings from './containers/Base/Headings'
 import Buttons from './containers/Components/Buttons'
 import Loading from './containers/Components/Loading'
+import Action from './containers/Components/Action'
 
 export default <Route path="/" component={App}>
   <IndexRoute component={Home} />
@@ -16,5 +17,6 @@ export default <Route path="/" component={App}>
   <Route path="/base/typography" component={Typography} />
   <Route path="/base/Headings" component={Headings} />
   <Route path="/components/buttons" component={Buttons} />
+  <Route path="/components/actions" component={Action} />
   <Route path="/components/loading" component={Loading} />
 </Route>
