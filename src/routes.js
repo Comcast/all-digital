@@ -9,6 +9,7 @@ import Headings from './containers/Base/Headings'
 import Buttons from './containers/Components/Buttons'
 import Loading from './containers/Components/Loading'
 import Action from './containers/Components/Action'
+import Badges from './containers/Components/Badges'
 
 export default <Route path="/" component={App}>
   <IndexRoute component={Home} />
@@ -16,6 +17,7 @@ export default <Route path="/" component={App}>
   <Route path="/base/forms" component={Forms} />
   <Route path="/base/typography" component={Typography} />
   <Route path="/base/Headings" component={Headings} />
+  <Route path="/components/badges" component={Badges} />
   <Route path="/components/buttons" component={Buttons} />
   <Route path="/components/actions" component={Action} />
   <Route path="/components/loading" component={Loading} />

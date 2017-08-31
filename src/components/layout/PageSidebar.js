@@ -54,6 +54,11 @@ const PageSidebar = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/components/badges">
+                  Badges
+                </Link>
+              </li>
+              <li>
                 <Link to="/components/loading">
                   Loading
                 </Link>
