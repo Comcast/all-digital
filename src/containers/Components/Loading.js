@@ -12,7 +12,7 @@ class Buttons extends Component {
           <hr />
 
           <h2>Description</h2>
-          <p>The loading component can be used as a full page takeover with fixed position and a bg color. If it is nested within a <a href="#/components/page-section">page-section</a> component, it will add the loading indicator centered within the page-section. See example below</p>
+          <p>The loading component can be used as a full page takeover with fixed position and a bg color. If it is nested within a page-section component, it will add the loading indicator centered within the page-section. See example below</p>
 
           <LoadingCard></LoadingCard>
         </PageSection>
