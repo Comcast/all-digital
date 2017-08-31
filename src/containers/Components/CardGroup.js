@@ -2,21 +2,18 @@ import React, { Component } from 'react'
 import PageSection from '../../components/PageSection'
 
 class CardGroups extends Component {
-  renderCard() {
-    return (
-      <div class="card">
-        <div class="card__content">
-          Test
-        </div>
-      </div>
-    )
+  renderCard(element) {
+    let el = element || 'div';
+    let CardContent = React.createElement('div', { className: 'card__content' }, 'Test');
+
+    return React.createElement(el, { className: 'card' }, CardContent)
   }
 
-  renderCardGroup() {
+  renderCardGroup(element) {
     return Array(4).fill(0).map(() => {
       return (
         <div class="card-group__item">
-          {this.renderCard()}
+          {this.renderCard(element)}
         </div>
       )
     });
@@ -35,12 +32,12 @@ class CardGroups extends Component {
 
         <h2>Card Group Links</h2>
         <div class="card-group">
-          {this.renderCardGroup()}
+          {this.renderCardGroup('a')}
         </div>
 
         <h2>Card Group Buttons</h2>
         <div class="card-group">
-          {this.renderCardGroup()}
+          {this.renderCardGroup('button')}
         </div>
 
         <div class="card-group">
