@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { basePath } from '../../routes'
 
 const PageSidebar = () => {
   return (
@@ -9,7 +10,7 @@ const PageSidebar = () => {
       <nav>
         <ul>
           <li>
-            <Link to={{ pathname: '/' }}>
+            <Link to={{ pathname: `${basePath}/` }}>
               Overview
             </Link>
           </li>
@@ -18,22 +19,22 @@ const PageSidebar = () => {
 
             <ul>
               <li>
-                <Link to={{ pathname: '/base/colors' }}>
+                <Link to={{ pathname: `${basePath}/base/colors` }}>
                   Colors
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/base/forms' }}>
+                <Link to={{ pathname: `${basePath}/base/forms` }}>
                   Forms
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/base/typography' }}>
+                <Link to={{ pathname: `${basePath}/base/typography` }}>
                   Typography
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/base/headings' }}>
+                <Link to={{ pathname: `${basePath}/base/headings` }}>
                   Headings
                 </Link>
               </li>
@@ -44,52 +45,52 @@ const PageSidebar = () => {
 
             <ul>
               <li>
-                <Link to={{ pathname: '/components/actions' }}>
+                <Link to={{ pathname: `${basePath}/components/actions` }}>
                   Actions
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/badges' }}>
+                <Link to={{ pathname: `${basePath}/components/badges` }}>
                   Badges
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/buttons' }}>
+                <Link to={{ pathname: `${basePath}/components/buttons` }}>
                   Buttons
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/cards' }}>
+                <Link to={{ pathname: `${basePath}/components/cards` }}>
                   Cards
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/card-groups' }}>
+                <Link to={{ pathname: `${basePath}/components/card-groups` }}>
                   Card Groups
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/form-controls' }}>
+                <Link to={{ pathname: `${basePath}/components/form-controls` }}>
                   Form Controls
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/form-boolean' }}>
+                <Link to={{ pathname: `${basePath}/components/form-boolean` }}>
                   Form Boolean
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/link-group' }}>
+                <Link to={{ pathname: `${basePath}/components/link-group` }}>
                   Link Group
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/loading' }}>
+                <Link to={{ pathname: `${basePath}/components/loading` }}>
                   Loading
                 </Link>
               </li>
               <li>
-                <Link to={{ pathname: '/components/page-sections' }}>
+                <Link to={{ pathname: `${basePath}/components/page-sections` }}>
                   Page Sections
                 </Link>
               </li>

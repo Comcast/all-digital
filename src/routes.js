@@ -16,7 +16,7 @@ import FormBoolean from './containers/Components/FormBoolean'
 import FormControls from './containers/Components/FormControl'
 import LinkGroup from './containers/Components/LinkGroup'
 
-export const basePath = (process.env.NODE_ENV === 'production') ? 'all-digital/' : '';
+export const basePath = (process.env.NODE_ENV === 'production') ? '/all-digital' : '';
 
 export const Routes = () => (
   <div>
