@@ -9,7 +9,7 @@ const PageSidebar = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">
+            <Link to={{ pathname: '/' }}>
               Overview
             </Link>
           </li>
@@ -18,22 +18,22 @@ const PageSidebar = () => {
 
             <ul>
               <li>
-                <Link to="/base/colors">
+                <Link to={{ pathname: '/base/colors' }}>
                   Colors
                 </Link>
               </li>
               <li>
-                <Link to="/base/forms">
+                <Link to={{ pathname: '/base/forms' }}>
                   Forms
                 </Link>
               </li>
               <li>
-                <Link to="/base/typography">
+                <Link to={{ pathname: '/base/typography' }}>
                   Typography
                 </Link>
               </li>
               <li>
-                <Link to="/base/headings">
+                <Link to={{ pathname: '/base/headings' }}>
                   Headings
                 </Link>
               </li>
@@ -44,52 +44,52 @@ const PageSidebar = () => {
 
             <ul>
               <li>
-                <Link to="/components/actions">
+                <Link to={{ pathname: '/components/actions' }}>
                   Actions
                 </Link>
               </li>
               <li>
-                <Link to="/components/badges">
+                <Link to={{ pathname: '/components/badges' }}>
                   Badges
                 </Link>
               </li>
               <li>
-                <Link to="/components/buttons">
+                <Link to={{ pathname: '/components/buttons' }}>
                   Buttons
                 </Link>
               </li>
               <li>
-                <Link to="/components/cards">
+                <Link to={{ pathname: '/components/cards' }}>
                   Cards
                 </Link>
               </li>
               <li>
-                <Link to="/components/card-groups">
+                <Link to={{ pathname: '/components/card-groups' }}>
                   Card Groups
                 </Link>
               </li>
               <li>
-                <Link to="/components/form-controls">
+                <Link to={{ pathname: '/components/form-controls' }}>
                   Form Controls
                 </Link>
               </li>
               <li>
-                <Link to="/components/form-boolean">
+                <Link to={{ pathname: '/components/form-boolean' }}>
                   Form Boolean
                 </Link>
               </li>
               <li>
-                <Link to="/components/link-group">
+                <Link to={{ pathname: '/components/link-group' }}>
                   Link Group
                 </Link>
               </li>
               <li>
-                <Link to="/components/loading">
+                <Link to={{ pathname: '/components/loading' }}>
                   Loading
                 </Link>
               </li>
               <li>
-                <Link to="/components/page-sections">
+                <Link to={{ pathname: '/components/page-sections' }}>
                   Page Sections
                 </Link>
               </li>
