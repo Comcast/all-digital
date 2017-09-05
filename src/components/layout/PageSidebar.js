@@ -69,6 +69,11 @@ const PageSidebar = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/components/form-boolean">
+                  Form Boolean
+                </Link>
+              </li>
+              <li>
                 <Link to="/components/loading">
                   Loading
                 </Link>
