@@ -3,16 +3,22 @@
 }
 
 .page-main {
-  padding-left: 210px;
+  @include respond-to(768) {
+    padding-left: 210px;
+  }
 }
 
 .page-sidebar {
-  position: fixed;
-  padding: 57px 12px 12px;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  border-right: 1px solid $cool-grey6;
-  width: 210px;
-  background-color: rgba($white, 0.9);
+  padding: 12px;
+
+  @include respond-to(768) {
+    position: fixed;
+    padding-top: 57px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 1px solid $cool-grey6;
+    width: 210px;
+    background-color: rgba($white, 0.9);
+  }
 }

@@ -44,18 +44,8 @@ const PageSidebar = () => {
 
             <ul>
               <li>
-                <Link to="/components/card-groups">
-                  Card Groups
-                </Link>
-              </li>
-              <li>
                 <Link to="/components/actions">
                   Actions
-                </Link>
-              </li>
-              <li>
-                <Link to="/components/buttons">
-                  Buttons
                 </Link>
               </li>
               <li>
@@ -64,8 +54,23 @@ const PageSidebar = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/components/buttons">
+                  Buttons
+                </Link>
+              </li>
+              <li>
+                <Link to="/components/card-groups">
+                  Card Groups
+                </Link>
+              </li>
+              <li>
                 <Link to="/components/loading">
                   Loading
+                </Link>
+              </li>
+              <li>
+                <Link to="/components/page-sections">
+                  Page Sections
                 </Link>
               </li>
             </ul>
