@@ -1,6 +1,5 @@
 import React from 'react'
-import { Route, IndexRoute } from 'react-router'
-import App from './containers/App'
+import { Route } from 'react-router-dom'
 import Home from './containers/Home'
 import Colors from './containers/Base/Colors'
 import Typography from './containers/Base/Typography'
@@ -17,20 +16,24 @@ import FormBoolean from './containers/Components/FormBoolean'
 import FormControls from './containers/Components/FormControl'
 import LinkGroup from './containers/Components/LinkGroup'
 
-export default <Route path="/" component={App}>
-  <IndexRoute component={Home} />
-  <Route path="/base/colors" component={Colors} />
-  <Route path="/base/forms" component={Forms} />
-  <Route path="/base/typography" component={Typography} />
-  <Route path="/base/Headings" component={Headings} />
-  <Route path="/components/actions" component={Action} />
-  <Route path="/components/badges" component={Badges} />
-  <Route path="/components/buttons" component={Buttons} />
-  <Route path="/components/cards" component={Card} />
-  <Route path="/components/card-groups" component={CardGroup} />
-  <Route path="/components/loading" component={Loading} />
-  <Route path="/components/page-sections" component={PageSections} />
-  <Route path="/components/form-boolean" component={FormBoolean} />
-  <Route path="/components/form-controls" component={FormControls} />
-  <Route path="/components/link-group" component={LinkGroup} />
-</Route>
+const Routes = () => (
+  <div>
+    <Route exact path="/" component={Home} />
+    <Route exact path="/base/colors" component={Colors} />
+    <Route exact path="/base/forms" component={Forms} />
+    <Route exact path="/base/typography" component={Typography} />
+    <Route exact path="/base/Headings" component={Headings} />
+    <Route exact path="/components/actions" component={Action} />
+    <Route exact path="/components/badges" component={Badges} />
+    <Route exact path="/components/buttons" component={Buttons} />
+    <Route exact path="/components/cards" component={Card} />
+    <Route exact path="/components/card-groups" component={CardGroup} />
+    <Route exact path="/components/loading" component={Loading} />
+    <Route exact path="/components/page-sections" component={PageSections} />
+    <Route exact path="/components/form-boolean" component={FormBoolean} />
+    <Route exact path="/components/form-controls" component={FormControls} />
+    <Route exact path="/components/link-group" component={LinkGroup} />
+  </div>
+)
+
+export default Routes

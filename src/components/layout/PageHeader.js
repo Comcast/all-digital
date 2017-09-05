@@ -1,6 +1,6 @@
 import React from 'react'
 import IconXfinity from '../icons/IconXfinity'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const PageHeader = () => {
   return (
