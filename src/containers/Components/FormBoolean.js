@@ -2,24 +2,7 @@ import React, { Component } from 'react'
 import PageSection from '../../components/PageSection'
 import FormBoolean from '../../components/FormBoolean'
 
-class CardGroups extends Component {
-  renderCard(element) {
-    let el = element || 'div';
-    let CardContent = React.createElement('div', { className: 'card__content' }, 'Test');
-
-    return React.createElement(el, { className: 'card' }, CardContent)
-  }
-
-  renderCardGroup(element) {
-    return Array(4).fill(0).map(() => {
-      return (
-        <div class="card-group__item">
-          {this.renderCard(element)}
-        </div>
-      )
-    });
-  }
-
+class FormBooleans extends Component {
   render() {
     return (
       <PageSection>
@@ -64,4 +47,4 @@ class CardGroups extends Component {
   }
 }
 
-export default CardGroups;
+export default FormBooleans;

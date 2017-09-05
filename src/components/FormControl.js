@@ -14,7 +14,7 @@ class FormControl extends Component {
     return (
       <div className={`form-control ${className}`}>
         {(label &&
-          <label htmlFor={inputId}>{label}</label>
+          <label class="form-control__label" htmlFor={inputId}>{label}</label>
         )}
         <div className="form-control__input">
           {children}

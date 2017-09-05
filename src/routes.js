@@ -14,6 +14,7 @@ import CardGroup from './containers/Components/CardGroup'
 import PageSections from './containers/Components/PageSections'
 import Card from './containers/Components/Card'
 import FormBoolean from './containers/Components/FormBoolean'
+import FormControls from './containers/Components/FormControl'
 
 export default <Route path="/" component={App}>
   <IndexRoute component={Home} />
@@ -29,4 +30,5 @@ export default <Route path="/" component={App}>
   <Route path="/components/loading" component={Loading} />
   <Route path="/components/page-sections" component={PageSections} />
   <Route path="/components/form-boolean" component={FormBoolean} />
+  <Route path="/components/form-controls" component={FormControls} />
 </Route>
