@@ -12,6 +12,7 @@ import Action from './containers/Components/Action'
 import Badges from './containers/Components/Badges'
 import CardGroup from './containers/Components/CardGroup'
 import PageSections from './containers/Components/PageSections'
+import Card from './containers/Components/Card'
 
 export default <Route path="/" component={App}>
   <IndexRoute component={Home} />
@@ -22,6 +23,7 @@ export default <Route path="/" component={App}>
   <Route path="/components/actions" component={Action} />
   <Route path="/components/badges" component={Badges} />
   <Route path="/components/buttons" component={Buttons} />
+  <Route path="/components/cards" component={Card} />
   <Route path="/components/card-groups" component={CardGroup} />
   <Route path="/components/loading" component={Loading} />
   <Route path="/components/page-sections" component={PageSections} />
