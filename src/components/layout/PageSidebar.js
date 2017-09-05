@@ -79,6 +79,11 @@ const PageSidebar = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/components/link-group">
+                  Link Group
+                </Link>
+              </li>
+              <li>
                 <Link to="/components/loading">
                   Loading
                 </Link>
