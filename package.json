@@ -11,7 +11,7 @@
     "redux-logger": "^3.0.6"
   },
   "dependencies": {
-    "all-digital": "git+https://github.com/Comcast/all-digital.git#v1.10.1",
+    "all-digital": "git+https://github.com/Comcast/all-digital.git#v1.11.0",
     "autoprefixer": "7.1.1",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
