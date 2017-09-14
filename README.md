@@ -11,7 +11,7 @@ Welcome to the All Digital brought to you by Comcast.
 In your project:
 
 ```bash
-npm install git+https://github.com/Comcast/all-digital.git#v1.10.1
+npm install git+https://github.com/Comcast/all-digital.git#v1.12.0
 ```
 
 ## Usage
@@ -20,21 +20,7 @@ Include everything:
 
 ```css
 @import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
-
-@include xfinity-standard-thin;
-@include xfinity-standard-thin-italic;
-@include xfinity-standard-extra-light;
-@include xfinity-standard-extra-light-italic;
-@include xfinity-standard-light;
-@include xfinity-standard-light-italic;
-@include xfinity-standard-regular;
-@include xfinity-standard-regular-italic;
-@include xfinity-standard-medium;
-@include xfinity-standard-medium-italic;
-@include xfinity-standard-bold;
-@include xfinity-standard-bold-italic;
-@include xfinity-standard-condensed-medium;
-@include xfinity-standard-condensed-bold;
+@include xfinity-standard-all;
 
 @import '../../node_modules/all-digital/assets/sass/all-digital';
 ```
@@ -43,11 +29,7 @@ Take what you need:
 
 ```css
 @import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
-
-@include xfinity-standard-regular;
-@include xfinity-standard-regular-italic;
-@include xfinity-standard-bold;
-@include xfinity-standard-bold-italic;
+@include xfinity-standard-all;
 
 @import '../../node_modules/all-digital/assets/sass/all-digital/vendors';
 @import '../../node_modules/all-digital/assets/sass/all-digital/utils';
@@ -62,21 +44,7 @@ Take what you need:
 ```css
 // fonts
 @import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
-
-@include xfinity-standard-thin;
-// @include xfinity-standard-thin-italic;
-@include xfinity-standard-extra-light;
-// @include xfinity-standard-extra-light-italic;
-@include xfinity-standard-light;
-@include xfinity-standard-light-italic;
-@include xfinity-standard-regular;
-// @include xfinity-standard-regular-italic;
-@include xfinity-standard-medium;
-@include xfinity-standard-medium-italic;
-// @include xfinity-standard-bold;
-// @include xfinity-standard-bold-italic;
-// @include xfinity-standard-condensed-medium;
-// @include xfinity-standard-condensed-bold;
+@include xfinity-standard-all;
 
 // Vendors
 // contains all the CSS files from
