@@ -15,5 +15,8 @@
     "web"
   ],
   "author": "Comcast",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
 }

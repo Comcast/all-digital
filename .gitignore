@@ -42,7 +42,6 @@ Icon
 # Buildy things
 .sass-cache
 build/
-dist/
 src/assets
 src/js
 src/css
