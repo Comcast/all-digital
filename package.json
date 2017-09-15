@@ -14,9 +14,15 @@
     "front-end",
     "web"
   ],
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
   "author": "Comcast",
   "license": "Apache 2.0",
   "devDependencies": {
+    "del": "^3.0.0",
+    "file-system": "^2.2.2",
+    "glob": "^7.1.2",
     "node-sass": "^4.5.3"
   }
 }
