@@ -1,0 +1,107 @@
+.page-section {
+  position: relative;
+  clear: both;
+}
+
+.page-section::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.page-section.ui-grey + .ui-grey .page-section__content {
+  padding-top: 0;
+}
+
+.page-section__wrapper {
+  margin: 0 auto;
+  padding: 0 12px;
+  max-width: 1120px;
+}
+
+@media (min-width: 48em) {
+  .page-section__wrapper {
+    padding: 0 24px;
+  }
+}
+
+.page-section__content {
+  padding: 30px 0;
+}
+
+.page-section__content > :last-child {
+  margin-bottom: 0;
+}
+
+.page-section--centered-text {
+  text-align: center;
+}
+
+.page-section--centered-text hr {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 50px;
+}
+
+.page-section--overlay {
+  background-size: cover;
+  background-position: center center;
+}
+
+.page-section--overlay .page-section__content {
+  max-width: 600px;
+  color: #fff;
+}
+
+@media (min-width: 48em) {
+  .page-section--overlay .page-section__content {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.page-section--overlay .page-section__content--no-bg {
+  background: none !important;
+}
+
+.page-section--overlay.ui-dark {
+  background-attachment: scroll;
+}
+
+.page-section--overlay.ui-dark .page-section__content {
+  background: rgba(15, 35, 43, 0.8);
+}
+
+.page-section--overlay-centered .page-section__content {
+  margin: 0 auto;
+}
+
+.page-section--overlay-right .page-section__content,
+.page-section--overlay-image-left .page-section__content {
+  width: 100%;
+  float: right;
+}
+
+.page-section--medium .page-section__content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 48em) {
+  .page-section--medium .page-section__content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.page-section--tall .page-section__content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 48em) {
+  .page-section--tall .page-section__content {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}

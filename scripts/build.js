@@ -1,28 +1,32 @@
 const sass = require('node-sass');
 const glob = require('glob');
-var fs = require('file-system');
-var del = require('del');
+const fs = require('file-system');
+const del = require('del');
+const read = require('read-file');
 
 const distFolder = './dist/';
 
-const sassRender = file => {
+const sassRender = (data, name) => {
   sass.render({
-    file: file,
+    data: data,
     outputStyle: 'expanded'
   }, function(error, result) { // node-style callback from v3.0.0 onwards
     if (!error) {
-      let updateFile = file.replace('src/sass', 'dist/css').replace('.scss', '.css');
+      let updateFile = name.replace('src/sass', 'dist/css').replace('.scss', '.css');
       // No errors during the compilation, write this result on the disk
       fs.writeFile(updateFile, result.css);
+    } else {
+      console.error(error);
     }
   });
 };
 
-let files = glob.sync('./src/sass/style.scss');
+let files = glob.sync('./src/sass/all-digital/{base/*,components/*}.scss');
 
 del([distFolder]).then(paths => {
-  let filesMap = files.map(file => {
-    console.log(file);
-    sassRender(file);
+  files.map(file => {
+    let name = file.replace('_', '');
+    let data = "@import './src/sass/xfinity_standard_fonts';\n@import './src/sass/all-digital/utils';\n" + read.sync(file, {encoding: 'utf8'});
+    sassRender(data, name);
   });
 });

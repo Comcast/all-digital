@@ -1,0 +1,26 @@
+.card-group {
+  margin-bottom: 24px;
+}
+
+.card-group__item {
+  margin-top: -1px;
+}
+
+.card-group__item:first-child {
+  margin-top: 0;
+}
+
+.card-group__item:first-child > .card {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card-group__item:last-child > .card {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.card-group__item > .card {
+  margin-bottom: 0;
+  border-radius: 0;
+}

@@ -1,0 +1,35 @@
+a,
+.link {
+  text-decoration: none;
+  color: #0272b6;
+}
+
+a:hover,
+.link:hover {
+  text-decoration: underline;
+  color: #0272b6;
+}
+
+.ui-dark a, .ui-dark
+.link {
+  color: #2b9cd8;
+}
+
+.ui-dark a:hover, .ui-dark
+.link:hover {
+  color: #2b9cd8;
+}
+
+.ui-blue a, .ui-blue
+.link {
+  color: #fff;
+}
+
+.ui-blue a:hover, .ui-blue
+.link:hover {
+  color: #fff;
+}
+
+[role="button"] {
+  cursor: pointer;
+}

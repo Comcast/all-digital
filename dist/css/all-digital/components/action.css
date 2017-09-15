@@ -1,0 +1,48 @@
+.action {
+  clear: both;
+}
+
+.action--centered {
+  text-align: center;
+}
+
+.action--centered .action__item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 6px;
+}
+
+@media (min-width: 48em) {
+  .action--right {
+    text-align: right;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 48em) {
+  .action--right .action__item {
+    float: right;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .action__item .button {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: 48em) {
+  .action--right-centered {
+    display: inline-block;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 48em) {
+  .action--right-centered .action__item {
+    padding: 0 6px;
+    float: right;
+  }
+}

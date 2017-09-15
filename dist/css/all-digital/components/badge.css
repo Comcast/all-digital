@@ -1,0 +1,55 @@
+.badge {
+  font-size: 12px;
+  font-size: 0.85714rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 0.16667em 0.5em;
+  color: #44484c;
+  border-radius: 0.25em;
+  background-color: #dde2e6;
+}
+
+.ui-dark .badge {
+  color: #fff;
+}
+
+.ui-blue .badge {
+  color: #fff;
+}
+
+.ui-grey .badge {
+  color: #191919;
+}
+
+.ui-light .badge {
+  color: #191919;
+}
+
++ .badge {
+  margin-left: 6px;
+}
+
+.badge--success {
+  background-color: #5bc942;
+  color: #191919;
+}
+
+.badge--info {
+  background-color: #0b7dbf;
+  color: #fff;
+}
+
+.badge--warning {
+  background-color: #ffa700;
+}
+
+.badge--danger {
+  background-color: #c90318;
+  color: #fff;
+}

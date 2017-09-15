@@ -1,0 +1,41 @@
+.alignright,
+.alignleft,
+.aligncenter {
+  display: block;
+  clear: both;
+  margin: 0 auto 20px;
+}
+
+.alignright > img,
+.alignright > a > img,
+.alignleft > img,
+.alignleft > a > img,
+.aligncenter > img,
+.aligncenter > a > img {
+  margin: 0 auto;
+}
+
+.alignnone {
+  display: block;
+  clear: both;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 48em) {
+  .alignright {
+    float: right;
+    clear: right;
+    margin: 0 0 20px 20px;
+  }
+  .alignleft {
+    float: left;
+    clear: left;
+    margin: 0 20px 20px 0;
+  }
+  .alignright > img,
+  .alignright > a > img,
+  .alignleft > img,
+  .alignleft > a > img {
+    margin: 0;
+  }
+}

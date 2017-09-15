@@ -1,0 +1,84 @@
+b,
+strong {
+  font-weight: 500;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+  font-size: 14px;
+  font-size: 1rem;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+ul,
+ol,
+dd {
+  margin-left: 1.5em;
+}
+
+li ul,
+li ol {
+  margin-bottom: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.address .street-address {
+  display: block;
+}
+
+pre {
+  margin: 0 0 1.5em;
+  background: #bababa;
+  padding: 0.5em;
+  word-wrap: normal;
+}
+
+.pre-line {
+  white-space: pre-line;
+}
+
+blockquote {
+  font-size: 20px;
+  font-size: 1.42857rem;
+  display: block;
+  margin: 0 0 20px;
+  border-left: 3px solid #e8e8e8;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0 0 1.5em;
+}
+
+.ui-dark hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.ui-grey hr {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.ui-light hr {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}

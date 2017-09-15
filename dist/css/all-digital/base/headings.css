@@ -1,0 +1,464 @@
+.display1 {
+  font-size: 50px;
+  font-size: 3.57143rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 100;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 64em) {
+  .display1 {
+    font-size: 70px;
+    font-size: 5rem;
+    line-height: 1.5;
+  }
+}
+
+.ui-dark .display1 {
+  color: #fff;
+}
+
+.ui-blue .display1 {
+  color: #fff;
+}
+
+.ui-grey .display1 {
+  color: #191919;
+}
+
+.ui-light .display1 {
+  color: #191919;
+}
+
+.display2 {
+  font-size: 40px;
+  font-size: 2.85714rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 100;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 64em) {
+  .display2 {
+    font-size: 50px;
+    font-size: 3.57143rem;
+    line-height: 1.5;
+  }
+}
+
+.ui-dark .display2 {
+  color: #fff;
+}
+
+.ui-blue .display2 {
+  color: #fff;
+}
+
+.ui-grey .display2 {
+  color: #191919;
+}
+
+.ui-light .display2 {
+  color: #191919;
+}
+
+.display3 {
+  font-size: 30px;
+  font-size: 2.14286rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 100;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 64em) {
+  .display3 {
+    font-size: 40px;
+    font-size: 2.85714rem;
+    line-height: 1.5;
+  }
+}
+
+.ui-dark .display3 {
+  color: #fff;
+}
+
+.ui-blue .display3 {
+  color: #fff;
+}
+
+.ui-grey .display3 {
+  color: #191919;
+}
+
+.ui-light .display3 {
+  color: #191919;
+}
+
+h1,
+.heading1 {
+  font-size: 24px;
+  font-size: 1.71429rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 100;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 64em) {
+  h1,
+  .heading1 {
+    font-size: 30px;
+    font-size: 2.14286rem;
+    line-height: 1.5;
+  }
+}
+
+.ui-dark h1, .ui-dark
+.heading1 {
+  color: #fff;
+}
+
+.ui-blue h1, .ui-blue
+.heading1 {
+  color: #fff;
+}
+
+.ui-grey h1, .ui-grey
+.heading1 {
+  color: #191919;
+}
+
+.ui-light h1, .ui-light
+.heading1 {
+  color: #191919;
+}
+
+h2,
+.heading2 {
+  font-size: 20px;
+  font-size: 1.42857rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 200;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 64em) {
+  h2,
+  .heading2 {
+    font-size: 24px;
+    font-size: 1.71429rem;
+    line-height: 1.5;
+  }
+}
+
+.ui-dark h2, .ui-dark
+.heading2 {
+  color: #fff;
+}
+
+.ui-blue h2, .ui-blue
+.heading2 {
+  color: #fff;
+}
+
+.ui-grey h2, .ui-grey
+.heading2 {
+  color: #191919;
+}
+
+.ui-light h2, .ui-light
+.heading2 {
+  color: #191919;
+}
+
+h3,
+.heading3 {
+  font-size: 18px;
+  font-size: 1.28571rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 200;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 64em) {
+  h3,
+  .heading3 {
+    font-size: 20px;
+    font-size: 1.42857rem;
+    line-height: 1.5;
+  }
+}
+
+.ui-dark h3, .ui-dark
+.heading3 {
+  color: #fff;
+}
+
+.ui-blue h3, .ui-blue
+.heading3 {
+  color: #fff;
+}
+
+.ui-grey h3, .ui-grey
+.heading3 {
+  color: #191919;
+}
+
+.ui-light h3, .ui-light
+.heading3 {
+  color: #191919;
+}
+
+.body1 {
+  font-size: 16px;
+  font-size: 1.14286rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 300;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 64em) {
+  .body1 {
+    font-size: 18px;
+    font-size: 1.28571rem;
+    line-height: 1.5;
+  }
+}
+
+.ui-dark .body1 {
+  color: #fff;
+}
+
+.ui-blue .body1 {
+  color: #fff;
+}
+
+.ui-grey .body1 {
+  color: #191919;
+}
+
+.ui-light .body1 {
+  color: #191919;
+}
+
+.body2 {
+  font-size: 16px;
+  font-size: 1.14286rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #44484c;
+  font-weight: 300;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.ui-dark .body2 {
+  color: #fff;
+}
+
+.ui-blue .body2 {
+  color: #fff;
+}
+
+.ui-grey .body2 {
+  color: #191919;
+}
+
+.ui-light .body2 {
+  color: #44484c;
+}
+
+.body3 {
+  font-size: 14px;
+  font-size: 1rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #44484c;
+  font-weight: 400;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.ui-dark .body3 {
+  color: #fff;
+}
+
+.ui-blue .body3 {
+  color: #fff;
+}
+
+.ui-grey .body3 {
+  color: #191919;
+}
+
+.ui-light .body3 {
+  color: #44484c;
+}
+
+.body4 {
+  font-size: 12px;
+  font-size: 0.85714rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 400;
+  text-transform: none;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.ui-dark .body4 {
+  color: #fff;
+}
+
+.ui-blue .body4 {
+  color: #fff;
+}
+
+.ui-grey .body4 {
+  color: #191919;
+}
+
+.ui-light .body4 {
+  color: #191919;
+}
+
+h4,
+.heading4 {
+  font-size: 15px;
+  font-size: 1.07143rem;
+  margin: 0 0 12px;
+  line-height: 1.46667;
+  color: #191919;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.ui-dark h4, .ui-dark
+.heading4 {
+  color: #fff;
+}
+
+.ui-blue h4, .ui-blue
+.heading4 {
+  color: #fff;
+}
+
+.ui-grey h4, .ui-grey
+.heading4 {
+  color: #191919;
+}
+
+.ui-light h4, .ui-light
+.heading4 {
+  color: #191919;
+}
+
+h5,
+h6,
+.heading5 {
+  font-size: 12px;
+  font-size: 0.85714rem;
+  margin: 0 0 12px;
+  line-height: 1.5;
+  color: #191919;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "XfinityStandard", helvetica, arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.ui-dark h5, .ui-dark
+h6, .ui-dark
+.heading5 {
+  color: #fff;
+}
+
+.ui-blue h5, .ui-blue
+h6, .ui-blue
+.heading5 {
+  color: #fff;
+}
+
+.ui-grey h5, .ui-grey
+h6, .ui-grey
+.heading5 {
+  color: #191919;
+}
+
+.ui-light h5, .ui-light
+h6, .ui-light
+.heading5 {
+  color: #191919;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+}
+
+.hgroup {
+  margin-bottom: 14px;
+}
+
+.hgroup .display1,
+.hgroup .display2,
+.hgroup .display3,
+.hgroup .heading1,
+.hgroup .heading2,
+.hgroup .heading3,
+.hgroup .heading4,
+.hgroup .heading5,
+.hgroup .heading6,
+.hgroup .body1,
+.hgroup .body2,
+.hgroup .body3,
+.hgroup .body4,
+.hgroup h1,
+.hgroup h2,
+.hgroup h3,
+.hgroup h4,
+.hgroup h5,
+.hgroup h6,
+.hgroup p {
+  margin-bottom: 0;
+}
+
+.hgroup--spaced {
+  margin-bottom: 24px;
+}

@@ -1,0 +1,138 @@
+.form-control {
+  clear: both;
+  margin-bottom: 16px;
+  max-width: 480px;
+}
+
+.form-control::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 48em) {
+  .form-control {
+    margin-bottom: 26px;
+  }
+}
+
+.form-control input,
+.form-control textarea,
+.form-control select,
+.form-control .readonly {
+  margin-bottom: 0;
+  max-width: none;
+}
+
+.form-control__helper {
+  margin: 0;
+  padding-bottom: 5px;
+  color: #a3a3a3;
+}
+
+input + .form-control__helper {
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+
+.form-control__label-text {
+  display: block;
+  margin-bottom: 0;
+}
+
+.form-control__label-body {
+  display: block;
+  color: #474747;
+}
+
+.form-control__label-body.heading5 {
+  margin-bottom: 0;
+}
+
+.form-control__input {
+  clear: both;
+  position: relative;
+}
+
+.form-control__error,
+label.error {
+  font-size: 14px;
+  font-size: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  clear: both;
+  color: #c90318;
+}
+
+.form-control__note {
+  display: inline-block;
+  margin: 0;
+}
+
+.ui-dark .form-control--primary [type=text], .ui-dark
+.form-control--primary [type=email], .ui-dark
+.form-control--primary [type=url], .ui-dark
+.form-control--primary [type=tel], .ui-dark
+.form-control--primary [type=password], .ui-dark
+.form-control--primary [type=search], .ui-dark
+.form-control--primary [type=number], .ui-dark
+.form-control--primary [type=date], .ui-dark
+.form-control--primary textarea, .ui-dark
+.form-control--primary select, .ui-dark
+.form-control--primary .readonly {
+  background-color: #fff;
+  color: #191919;
+  border-color: #6c747c;
+}
+
+.ui-dark .form-control--primary [type=text]:focus, .ui-dark
+.form-control--primary [type=email]:focus, .ui-dark
+.form-control--primary [type=url]:focus, .ui-dark
+.form-control--primary [type=tel]:focus, .ui-dark
+.form-control--primary [type=password]:focus, .ui-dark
+.form-control--primary [type=search]:focus, .ui-dark
+.form-control--primary [type=number]:focus, .ui-dark
+.form-control--primary [type=date]:focus, .ui-dark
+.form-control--primary textarea:focus, .ui-dark
+.form-control--primary select:focus, .ui-dark
+.form-control--primary .readonly:focus {
+  border-color: #0272b6;
+  background-color: #fff;
+}
+
+.form-control--inline {
+  display: flex;
+  max-width: 704px;
+}
+
+.form-control--inline > .form-control__label {
+  padding-top: 17px;
+  width: 224px;
+  margin-right: 12px;
+}
+
+.form-control--inline > .form-control__input {
+  flex: 1;
+}
+
+@media (min-width: 48em) {
+  .form-control--inline-at-768 {
+    display: flex;
+    max-width: 704px;
+  }
+}
+
+@media (min-width: 48em) {
+  .form-control--inline-at-768 > .form-control__label {
+    padding-top: 17px;
+    width: 224px;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width: 48em) {
+  .form-control--inline-at-768 > .form-control__input {
+    flex: 1;
+  }
+}
