@@ -25,7 +25,6 @@ $form-control: (
 .form-control__helper {
   margin: 0;
   padding-bottom: 5px;
-  color: $grey-36;
 
   input + & {
     padding-top: 5px;
@@ -40,7 +39,6 @@ $form-control: (
 
 .form-control__label-body {
   display: block;
-  color: $grey-72;
 
   &.heading5 {
     margin-bottom: 0;
