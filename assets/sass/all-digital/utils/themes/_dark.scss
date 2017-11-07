@@ -28,4 +28,5 @@ $ui-dark-map: (
 $ui-dark-map: map-merge($ui-dark-map, $headings);
 $ui-dark-map: map-merge($ui-dark-map, $forms);
 $ui-dark-map: map-merge($ui-dark-map, $buttons);
+$ui-dark-map: map-merge($ui-dark-map, $page-sections);
 $ui-dark-map: map-merge($ui-dark-map, $links);
