@@ -1,0 +1,23 @@
+.app-class-toggle {}
+
+.app-class-toggle__button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid $cool-grey5;
+}
+
+.app-class-toggle__button--light {
+  background-color: $background-color;
+}
+
+.app-class-toggle__button--dark {
+  background-color: map-get($ui-dark-map, background-color);
+}
+
+.app-class-toggle__button--grey {
+  background-color: map-get($ui-grey-map, background-color);
+}
+
+.app-class-toggle__button--blue {
+  background-color: map-get($ui-blue-map, background-color);
+}

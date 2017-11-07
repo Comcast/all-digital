@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PageSection from '../../components/PageSection'
-import { brandColors, additionalColors, greys, coolGreys } from '../../helpers/colors'
+import { coolGreyScale, actionBlue, secondaryPalette } from '../../helpers/colors'
 
 class Colors extends Component {
   renderColors(colors) {
@@ -13,7 +13,7 @@ class Colors extends Component {
         <div class="color-block-group__item">
           <div class="color-block" style={style}>
             <div class="color-block__name">
-              {color.name}
+              {color.name}: {color.hex}
             </div>
           </div>
         </div>
@@ -33,17 +33,16 @@ class Colors extends Component {
         <h1>Colors</h1>
         <hr />
 
-        <h2>Brand Colors</h2>
-        {this.renderColors(brandColors)}
+        <h2>Cool Grey Scale</h2>
+        {this.renderColors(coolGreyScale)}
 
-        <h2>Additional Colors</h2>
-        {this.renderColors(additionalColors)}
+        <h2>Action Blue</h2>
+        {this.renderColors(actionBlue)}
 
-        <h2>Greys</h2>
-        {this.renderColors(greys)}
+        <h2>Secondary Palette</h2>
+        {this.renderColors(secondaryPalette)}
 
-        <h2>Cool Greys</h2>
-        {this.renderColors(coolGreys)}
+
       </PageSection>
     )
   }

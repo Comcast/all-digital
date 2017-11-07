@@ -11,8 +11,5 @@ npm run start
 
 ```bash
 npm run build
-git checkout gh-pages
-cp -R build/* .
-git add .
-git commit -m "New Build"
+npm run deploy
 ```
