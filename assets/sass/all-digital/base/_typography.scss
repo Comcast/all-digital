@@ -43,7 +43,7 @@ address {
 
 pre {
   margin: 0 0 1.5em;
-  background: $grey-27;
+  background: $cool-grey4;
   padding: 0.5em;
   word-wrap: normal;
 }
@@ -56,7 +56,7 @@ blockquote {
   @include font-size(20);
   display: block;
   margin: 0 0 20px;
-  border-left: 3px solid $grey-9;
+  border-left: 3px solid $cool-grey4;
   padding-left: 10px;
   overflow: hidden;
 

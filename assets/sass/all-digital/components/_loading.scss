@@ -19,7 +19,7 @@
 
 .loading__content {
   @include horizontal-vertical-align();
-  background-color: rgba($cool-grey7, 0.2);
+  background-color: rgba($cool-grey8, 0.2);
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -27,11 +27,11 @@
   text-align: center;
 
   .page-section & {
-    background-color: $cool-grey7;
+    background-color: $cool-grey8;
   }
 
   @include ui-blue {
-    background-color: rgba($cool-grey7, 0.2);
+    background-color: rgba($cool-grey8, 0.2);
   }
 }
 

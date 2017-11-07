@@ -5,21 +5,24 @@ a,
 
   &:hover {
     text-decoration: underline;
-    color: $link-hover-color;
+  }
+
+  &:active {
+    color: $link-active-color;
   }
 
   @include ui-dark {
     color: map-get($ui-dark-map, link-color);
 
-    &:hover {
-      color: map-get($ui-dark-map, link-hover-color);
+    &:active {
+      color: map-get($ui-dark-map, link-active-color);
     }
   }
 
   @include ui-blue {
     color: map-get($ui-blue-map, link-color);
 
-    &:hover {
+    &:active {
       color: map-get($ui-blue-map, link-color);
     }
   }

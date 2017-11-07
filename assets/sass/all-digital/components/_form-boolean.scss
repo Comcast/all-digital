@@ -48,7 +48,7 @@
   input[type="checkbox"] ~ .form-control__label::before {
     border-radius: 3px;
     background-color: $cool-grey2;
-    border: 1px solid $cool-grey8;
+    border: 1px solid $cool-grey11;
   }
 
   input[type="checkbox"]:checked ~ .form-control__label::before {
@@ -60,7 +60,7 @@
   input[type="radio"] ~ .form-control__label::before {
     border-radius: 50%;
     background: $cool-grey2;
-    border: 1px solid $cool-grey8;
+    border: 1px solid $cool-grey11;
   }
 
   input[type="radio"]:checked ~ .form-control__label::before {
@@ -71,13 +71,13 @@
   @include ui-dark {
     input[type="checkbox"] ~ .form-control__label::before,
     input[type="radio"] ~ .form-control__label::before {
-      border-color: $cool-grey7;
+      border-color: $cool-grey8;
       background-color: transparent;
     }
 
     input[type="checkbox"]:checked ~ .form-control__label::before,
     input[type="radio"]:checked ~ .form-control__label::before {
-      border-color: $blue-jeans;
+      border-color: $blue-deep;
     }
 
     input[type="radio"]:checked ~ .form-control__label::before {
@@ -85,7 +85,7 @@
     }
 
     input[type="checkbox"]:checked ~ .form-control__label::before {
-      background-color: $blue-jeans;
+      background-color: $blue-deep;
     }
   }
 }

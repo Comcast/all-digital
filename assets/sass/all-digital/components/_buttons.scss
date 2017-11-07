@@ -124,7 +124,21 @@
   }
 
   @include ui-dark {
+    border-color: map-get($ui-dark-map, button-primary-border-color);
+    background-color: map-get($ui-dark-map, button-primary-background-color);
     color: map-get($ui-dark-map, button-primary-text-color);
+
+    &:hover,
+    &.pseudo-class-hover {
+      border-color: map-get($ui-dark-map, button-primary-border-color-hover);
+      background-color: map-get($ui-dark-map, button-primary-background-color-hover);
+    }
+
+    &:active,
+    &.pseudo-class-active {
+      border-color: map-get($ui-dark-map, button-primary-border-color-active);
+      background-color: map-get($ui-dark-map, button-primary-background-color-active);
+    }
   }
 
   @include ui-blue {
