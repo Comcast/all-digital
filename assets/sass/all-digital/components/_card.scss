@@ -5,7 +5,6 @@
   padding: 12px;
   border: 1px solid $card-border-color;
   background: $card-background-color;
-  color: $card-text-color;
   position: relative;
   border-radius: 3px;
   justify-content: space-between;
@@ -93,7 +92,7 @@ button.card {
 }
 
 .card--danger {
-  border-left: 5px solid $ui-danger;
+  border-left: 5px solid $red-watermelon;
 }
 
 .card__action {
