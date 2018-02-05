@@ -15,6 +15,7 @@ import Card from './containers/Components/Card'
 import FormBoolean from './containers/Components/FormBoolean'
 import FormControls from './containers/Components/FormControl'
 import LinkGroup from './containers/Components/LinkGroup'
+import Status from './containers/Components/Status'
 
 export const Routes = () => (
   <div>
@@ -33,6 +34,7 @@ export const Routes = () => (
     <Route exact path='/components/form-boolean' component={FormBoolean} />
     <Route exact path='/components/form-controls' component={FormControls} />
     <Route exact path='/components/link-group' component={LinkGroup} />
+    <Route exact path='/components/status' component={Status} />
   </div>
 )
 

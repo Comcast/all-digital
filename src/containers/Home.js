@@ -22,7 +22,7 @@ class Home extends Component {
         <p>In your project:</p>
 
         <code><pre>
-        npm install git+https://github.com/Comcast/all-digital.git#v1.10.1
+        npm install git+https://github.com/Comcast/all-digital.git#v2.1.0
         </pre></code>
 
         <h2>Usage</h2>

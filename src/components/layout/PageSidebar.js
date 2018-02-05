@@ -99,6 +99,11 @@ const PageSidebar = () => {
                   Page Sections
                 </Link>
               </li>
+              <li>
+                <Link to={{ pathname: '/components/status' }}>
+                  Status
+                </Link>
+              </li>
             </ul>
           </li>
         </ul>
