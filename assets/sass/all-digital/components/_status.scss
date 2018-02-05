@@ -1,0 +1,50 @@
+$status-indicator-size: 9px;
+
+.status {
+  &:before {
+    margin-right: 5px;
+    width: $status-indicator-size;
+    height: $status-indicator-size;
+    border-radius: $status-indicator-size;
+    background-color: $cool-grey8;
+    transition: background-color 0.5s;
+    display: inline-block;
+    content: '';
+  }
+}
+
+.status--none {
+  &:before {
+    display: none;
+  }
+}
+
+.status--warning {
+  &:before {
+    background-color: $yellow-pumpkin;
+
+    @include ui-grey {
+      background-color: $yellow-pumpkin;
+    }
+  }
+}
+
+.status--success {
+  &:before {
+    background-color: $minty;
+
+    @include ui-grey {
+      background-color: $minty;
+    }
+  }
+}
+
+.status--danger {
+  &:before {
+    background-color: $ui-danger;
+
+    @include ui-grey {
+      background-color: $ui-danger;
+    }
+  }
+}
