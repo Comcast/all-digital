@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import PageSection from '../../components/PageSection'
-import Loading from '../../components/Loading'
-import LoadingCard from '../../components/LoadingCard'
+import { PageSection, Loading, LoadingCard } from 'all-digital-components'
 
 class Buttons extends Component {
   render() {

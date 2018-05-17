@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import PageHeader from '../components/layout/PageHeader'
-import PageFooter from '../components/layout/PageFooter'
+import { PageHeader, PageFooter } from 'all-digital-components'
 import PageSidebar from '../components/layout/PageSidebar'
 import Routes from '../routes'
 

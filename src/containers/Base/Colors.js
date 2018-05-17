@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PageSection from '../../components/PageSection'
+import { PageSection } from 'all-digital-components'
 import { coolGreyScale, actionBlue, secondaryPalette } from '../../helpers/colors'
 
 class Colors extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PageSection from '../../components/PageSection'
+import { PageSection } from 'all-digital-components'
 
 class CardGroups extends Component {
   renderCard(element) {

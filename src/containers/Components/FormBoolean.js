@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import PageSection from '../../components/PageSection'
-import FormBoolean from '../../components/FormBoolean'
+import { PageSection, FormBoolean } from 'all-digital-components'
 
 class FormBooleans extends Component {
   render() {

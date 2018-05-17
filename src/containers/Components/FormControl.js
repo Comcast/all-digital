@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import PageSection from '../../components/PageSection'
-import FormControl from '../../components/FormControl'
+import { PageSection, FormControl } from 'all-digital-components'
 
 class FormControls extends Component {
   render() {

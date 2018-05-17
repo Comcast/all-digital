@@ -1,2 +1,18 @@
 @import 'layout/page-header';
 @import 'layout/page-content';
+
+.page-app {
+  padding-bottom: 65px; /* 17 text + 24 gutters */
+  position: relative;
+  min-height: 100vh;
+}
+
+.page-footer {
+  padding-bottom: 24px;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: #9B9B9B;
+}

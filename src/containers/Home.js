@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PageSection from '../components/PageSection'
+import { PageSection } from 'all-digital-components'
 import { includeEverything, takeWhatYouNeed, example } from '../helpers/home'
 
 class Home extends Component {
@@ -22,7 +22,7 @@ class Home extends Component {
         <p>In your project:</p>
 
         <code><pre>
-        npm install git+https://github.com/Comcast/all-digital.git#v2.1.0
+        npm install git+https://github.com/Comcast/all-digital.git#v2.2.0
         </pre></code>
 
         <h2>Usage</h2>
