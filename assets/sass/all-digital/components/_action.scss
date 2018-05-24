@@ -21,7 +21,7 @@
   .action__item {
     @include respond-to(768) {
       float: right;
-      margin-left: 10px;
+      margin-left: 24px;
     }
   }
 }
