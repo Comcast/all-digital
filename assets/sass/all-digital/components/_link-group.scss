@@ -6,7 +6,7 @@
 
 .link-group__item {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 12px;
   margin-left: 10px;
   padding-left: 10px;
   border-left: 1px solid $cool-grey8;
@@ -15,5 +15,11 @@
     margin-left: 0;
     padding-left: 0;
     border-left: 0;
+  }
+}
+
+.link-group--no-margin {
+  .link-group__item {
+    margin-bottom: 0;
   }
 }
