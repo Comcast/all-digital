@@ -3,12 +3,6 @@
 // external libraries and frameworks
 @import 'all-digital/vendors';
 
-// Utilities
-// Contains mixins, functions and
-// variables that should be used to
-// make code cleaner and easier
-@import 'all-digital/utils';
-
 // Base
 // Contains styles for base elements
 // typography, tables, etc
@@ -25,6 +19,13 @@
 // to be refactored or re-encorporated
 // in the CSS architecture
 @import 'all-digital/shame';
+
+// Utilities
+// Contains mixins, functions and
+// variables that should be used to
+// make code cleaner and easier
+@import 'all-digital/utils';
+
 
 // Keyframes
 // keyframes for animations
