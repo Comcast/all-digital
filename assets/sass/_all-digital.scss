@@ -14,18 +14,17 @@
 // and reusable through the UI
 @import 'all-digital/components';
 
-// Shame
-// shame file houses code that needs
-// to be refactored or re-encorporated
-// in the CSS architecture
-@import 'all-digital/shame';
-
 // Utilities
 // Contains mixins, functions and
 // variables that should be used to
 // make code cleaner and easier
 @import 'all-digital/utils';
 
+// Shame
+// shame file houses code that needs
+// to be refactored or re-encorporated
+// in the CSS architecture
+@import 'all-digital/shame';
 
 // Keyframes
 // keyframes for animations
