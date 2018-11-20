@@ -1,0 +1,75 @@
+.page-header {
+  color: $white;
+  background-color: $black;
+  position: relative;
+  z-index: 10;
+
+  a {
+    color: $white;
+  }
+}
+
+.page-header__wrapper {
+  @include wrapper;
+}
+
+.page-header__content {
+  position: relative;
+}
+
+.page-header__logo-wrap {
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+.page-header__logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.page-header__logo,
+.page-header__logo-svg {
+  width: 70px;
+  height: 25px;
+}
+
+.page-header__back {
+  @include vertical-align;
+  position: absolute;
+  left: 30px;
+}
+
+.page-header__title {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.page-header__cancel button {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.page-app--harnessed {
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center
+  }
+  .page-header__back {
+    position: static;
+    order: -1;
+    transform: none;
+  }
+}
+
+.page-app--android .page-header__title {
+  left: 62px;
+  text-align: left;
+}
+
