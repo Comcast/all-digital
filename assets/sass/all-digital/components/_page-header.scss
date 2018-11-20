@@ -3,10 +3,6 @@
   background-color: $black;
   position: relative;
   z-index: 10;
-
-  a {
-    color: $white;
-  }
 }
 
 .page-header__wrapper {
@@ -30,6 +26,7 @@
 
 .page-header__logo,
 .page-header__logo-svg {
+  color: #fff;
   width: 70px;
   height: 25px;
 }
