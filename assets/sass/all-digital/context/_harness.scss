@@ -1,0 +1,39 @@
+.page-app--harnessed {
+  h2,
+  .heading2 {
+    @include font-size(14);
+    color: $cool-grey11;
+    font-weight: 500;
+  }
+
+  .page-section--banner h1.heading2 {
+    @include heading2;
+  }
+
+  .form-control:not(.form-control--boolean) {
+    .label,
+    label,
+    .form-control__label {
+      color: $cool-grey11;
+      font-weight: 500;
+    }
+  }
+
+  [type=text],
+  [type=email],
+  [type=url],
+  [type=tel],
+  [type=password],
+  [type=search],
+  [type=number],
+  [type=date],
+  textarea,
+  select,
+  .readonly {
+    border-color: #656b71;
+  }
+
+  .button {
+    font-weight: 500;
+  }
+}
