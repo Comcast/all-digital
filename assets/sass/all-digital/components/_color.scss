@@ -28,14 +28,6 @@
   }
 }
 
-.color--green-forest {
-  color: $green-forest;
-
-  @include ui-grey {
-    color: $green-forest;
-  }
-}
-
 .color--blue-sky {
   color: $blue-sky;
 }
