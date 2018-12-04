@@ -1,0 +1,51 @@
+.circle {
+  background-color: $cool-grey5;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle--large {
+  width: 90px;
+  height: 90px;
+}
+
+.circle--small {
+  width: 26px;
+  height: 26px;
+}
+
+.circle--cool-grey8 {
+  background-color: $cool-grey8;
+}
+
+.circle--minty {
+  background-color: $minty;
+}
+
+.circle--turq,
+.circle--misc {
+  background-color: $turq;
+}
+
+.circle--white {
+  background-color: $white;
+}
+
+.circle--warning,
+.circle--yellow-pumpkin {
+  background-color: $yellow-pumpkin;
+}
+
+.circle--danger {
+  background-color: $red-cherry;
+}
+
+.circle--outage,
+.circle--alert {
+  background-color: $red-watermelon;
+}
