@@ -20,6 +20,12 @@
 // and reusable through the UI
 @import 'all-digital/components';
 
+// Context
+// Context are changes to components and
+// styles based on where they appear like
+// within a mobile app
+@import 'all-digital/context';
+
 // Shame
 // shame file houses code that needs
 // to be refactored or re-encorporated

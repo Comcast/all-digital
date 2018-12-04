@@ -6,7 +6,7 @@ $form-control: (
 .form-control {
   @include clearfix;
   clear: both;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   max-width: map-get($form-control, max-width);
 
   @include respond-to(768) {
@@ -53,8 +53,7 @@ $form-control: (
 .form-control__error,
 label.error {
   @include font-size($body3-size);
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 6px;
   display: block;
   clear: both;
   color: $red-cherry;

@@ -1,0 +1,55 @@
+.color {}
+
+.color--cool-grey11 {
+  color: $cool-grey11;
+
+  @include ui-grey {
+    color: $cool-grey11;
+  }
+}
+
+.color--cool-grey12 {
+  color: $cool-grey12;
+
+  @include ui-grey {
+    color: $cool-grey12;
+  }
+}
+
+.color--text-color {
+  color: $text-color;
+}
+
+.color--success {
+  color: $ui-success;
+
+  @include ui-grey {
+    color: $ui-success;
+  }
+}
+
+.color--green-forest {
+  color: $green-forest;
+
+  @include ui-grey {
+    color: $green-forest;
+  }
+}
+
+.color--blue-sky {
+  color: $blue-sky;
+}
+
+.color--danger,
+.color--red-cherry {
+  color: $red-cherry;
+
+  @include ui-grey {
+    color: $red-cherry;
+  }
+}
+
+.color--alert,
+.color--red-watermelon {
+  color: $red-watermelon;
+}

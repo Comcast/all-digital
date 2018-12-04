@@ -2,19 +2,20 @@
   max-width: none;
 
   .form-control__label {
-    display: block;
+    display: flex;
     position: relative;
-    float: none;
     font-size: 1em;
     margin-bottom: 0;
-    padding: 1px 0 1px 40px;
     max-width: none;
 
+    @include respond-to(768) {
+      align-items: center;
+    }
+
     &::before {
+      margin-right: 18px;
+      flex-shrink: 0;
       display: block;
-      position: absolute;
-      top: 1px;
-      left: 0;
       content: '';
       width: 22px;
       height: 22px;
@@ -22,21 +23,23 @@
       background-repeat: no-repeat;
       background-position: center center;
     }
-
-    &.heading1,
-    &.heading2 {
-      &::before {
-        top: 7px;
-      }
-    }
   }
 
   input {
     @include visually-hidden();
   }
 
+  input ~ .form-control__label::before {
+    background: $cool-grey2;
+    border: 1px solid $cool-grey11;
+  }
+
   input:focus ~ .form-control__label::before {
     outline: 1px dotted $blue-sky;
+  }
+
+  input.error ~ .form-control__label::before {
+    border-color: $text-input-border-color-error;
   }
 
   input:disabled ~ .form-control__label {
@@ -47,8 +50,6 @@
 
   input[type="checkbox"] ~ .form-control__label::before {
     border-radius: 3px;
-    background-color: $cool-grey2;
-    border: 1px solid $cool-grey11;
   }
 
   input[type="checkbox"]:checked ~ .form-control__label::before {
@@ -59,12 +60,9 @@
 
   input[type="radio"] ~ .form-control__label::before {
     border-radius: 50%;
-    background: $cool-grey2;
-    border: 1px solid $cool-grey11;
   }
 
   input[type="radio"]:checked ~ .form-control__label::before {
-    background: $cool-grey2;
     border: 6px solid $blue-sky;
   }
 
