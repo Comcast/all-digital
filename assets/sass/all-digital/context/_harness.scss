@@ -3,6 +3,7 @@
     .label,
     label,
     .form-control__label {
+      @include font-size(14);
       color: $cool-grey11;
       font-weight: 500;
     }
@@ -22,7 +23,34 @@
     border-color: #656b71;
   }
 
+  a,
+  .link,
   .button {
     font-weight: 500;
+  }
+
+  .hgroup {
+    .display1,
+    .display2,
+    .display3,
+    .heading1,
+    .heading2,
+    .heading3,
+    .heading4,
+    .heading5,
+    .heading6,
+    .body1,
+    .body2,
+    .body3,
+    .body4,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin-bottom: 6px;
+    }
   }
 }
