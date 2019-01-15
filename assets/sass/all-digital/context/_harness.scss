@@ -1,15 +1,4 @@
 .page-app--harnessed {
-  h2,
-  .heading2 {
-    @include font-size(14);
-    color: $cool-grey11;
-    font-weight: 500;
-  }
-
-  .page-section--banner h1.heading2 {
-    @include heading2;
-  }
-
   .form-control:not(.form-control--boolean) {
     .label,
     label,
