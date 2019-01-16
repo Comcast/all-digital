@@ -51,6 +51,11 @@
   font-weight: 500;
 }
 
+.page-header .button--text,
+.page-header a {
+  color: $blue-genie;
+}
+
 .page-app--harnessed {
   .page-header {
     display: flex;
@@ -58,6 +63,7 @@
     padding: 12px;
     align-items: center
   }
+
   .page-header__back {
     position: static;
     order: -1;
@@ -69,4 +75,3 @@
   left: 62px;
   text-align: left;
 }
-
