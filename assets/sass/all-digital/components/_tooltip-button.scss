@@ -1,0 +1,23 @@
+.tooltip-button__content {
+  width: 20rem;
+  box-shadow: 0 0 8px rgba(5, 18, 25, 0.25);
+  border-radius: 3px;
+  padding: 1.5rem;
+  font-size: 14px;
+  background: #fff;
+  color: #44484C;
+  transition: opacity .4s;
+  position: absolute;
+  z-index: 9001;
+  pointer-events: none;
+  overflow: auto;
+  opacity: 0;
+}
+.tooltip-button__mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9002;
+}
