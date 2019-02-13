@@ -11,6 +11,7 @@
     @include button-active;
   }
 
+  &.is-disabled,
   &:disabled {
     opacity: 0.4;
     border-color: $button-border-color !important;
@@ -69,6 +70,7 @@
       background-color: map-get($ui-blue-map, button-background-color-active);
     }
 
+    &.is-disabled,
     &:disabled {
       color: map-get($ui-blue-map, button-text-color) !important;
       border-color: map-get($ui-blue-map, button-border-color) !important;
@@ -117,6 +119,7 @@
     background-color: $button-primary-background-color-active;
   }
 
+  &.is-disabled,
   &:disabled {
     border-color: $button-primary-border-color !important;
     background-color: $button-primary-background-color !important;
@@ -160,6 +163,7 @@
       color: map-get($ui-blue-map, button-primary-text-color-active);
     }
 
+    &.is-disabled,
     &:disabled {
       border-color: map-get($ui-blue-map, button-primary-border-color) !important;
       background-color: map-get($ui-blue-map, button-primary-background-color) !important;
