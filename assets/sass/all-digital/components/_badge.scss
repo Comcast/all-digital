@@ -3,13 +3,14 @@ $badge-font-size: 12;
 .badge {
   @include font-size($badge-font-size);
   margin-bottom: 12px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   display: inline-block;
   padding: calc-target(2, $badge-font-size) calc-target(6, $badge-font-size);
   color: $cool-grey12;
   border-radius: calc-target(3, $badge-font-size);
   background-color: $cool-grey6;
+  letter-spacing: .5px;
 
   + .badge {
     margin-left: 6px;
