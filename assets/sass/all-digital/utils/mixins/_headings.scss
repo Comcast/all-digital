@@ -203,7 +203,6 @@
   @include respond-to(1024) {
     @include font-size($body1-size-large);
     line-height: calc-target($body1-height-large, $body1-size-large, 1);
-    color: $body1-color-large;
   }
 
   @include ui-dark {
@@ -314,10 +313,6 @@
   font-family: $primary-font-stack;
   letter-spacing: 2px;
 
-  @include respond-to(1024) {
-    color: $heading4-color-large;
-  }
-
   @include ui-dark {
     color: map-get($ui-dark-map, heading4-color);
   }
@@ -344,10 +339,6 @@
   text-transform: uppercase;
   font-family: $primary-font-stack;
   letter-spacing: 2px;
-
-  @include respond-to(1024) {
-    color: $heading5-color-large;
-  }
 
   @include ui-dark {
     color: map-get($ui-dark-map, heading5-color);
