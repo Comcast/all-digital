@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PageHeader, PageFooter } from 'all-digital-components';
+import { PageHeader, PageFooter } from 'adc-ui-components';
 import PageSidebar from '../components/layout/PageSidebar';
 import Routes from '../routes';
 

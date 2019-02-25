@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PageSection } from 'all-digital-components';
+import { PageSection } from 'adc-ui-components';
 import { includeEverything, takeWhatYouNeed, example } from '../helpers/home';
 
 class Home extends Component {
