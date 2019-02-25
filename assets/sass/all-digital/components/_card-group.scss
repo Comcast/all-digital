@@ -1,6 +1,13 @@
 .card-group {
-  margin-bottom: 24px;
   @include boxShadow;
+  margin: 0 0 12px #{-($wrapper-gutters + 1px)};
+  width: calc(100% + #{($wrapper-gutters * 2 + 2px)});
+  margin-bottom: 24px;
+
+  @include respond-to(768) {
+    width: auto;
+    margin-left: 0;
+  }
 }
 
 .card-group__item {
@@ -23,6 +30,8 @@
   }
 
   > .card {
+    width: auto;
+    margin-left: 0;
     margin-bottom: 0;
     border-radius: 0;
     box-shadow: none;
