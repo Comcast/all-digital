@@ -38,9 +38,11 @@ const CardGroups = () => (
 
     <div className="card-group">
       <div className="card-group__item">
-        <card>
-          <h2>Card Content</h2>
-        </card>
+        <div className="card">
+          <div className="card__content">
+            <h2>Card Content</h2>
+          </div>
+        </div>
       </div>
       {renderCardGroup()}
     </div>
