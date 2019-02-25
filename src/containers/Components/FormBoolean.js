@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { PageSection, FormBoolean } from 'all-digital-components'
+import React, { Component } from 'react';
+import { PageSection, FormBoolean } from 'all-digital-components';
 
 class FormBooleans extends Component {
   render() {
@@ -42,7 +42,7 @@ class FormBooleans extends Component {
           <input id="checkbox-disabled-checked" type="checkbox" name="checkbox-disabled-checked" checked disabled />
         </FormBoolean>
       </PageSection>
-    )
+    );
   }
 }
 

@@ -1,19 +1,21 @@
-import React, { Component } from 'react'
-import { PageSection } from 'all-digital-components'
-import { coolGreyScale, actionBlue, secondaryPalette } from '../../helpers/colors'
+import React, { Component } from 'react';
+import { PageSection } from 'all-digital-components';
+import { coolGreyScale, actionBlue, secondaryPalette } from '../../helpers/colors';
 
 class Colors extends Component {
   renderColors(colors) {
-    const items = colors.map(color => {
+    const items = colors.map((color) => {
       const style = {
-        backgroundColor: color.hex
+        backgroundColor: color.hex,
       };
 
       return (
-        <div class="color-block-group__item">
-          <div class="color-block" style={style}>
-            <div class="color-block__name">
-              {color.name}: {color.hex}
+        <div className="color-block-group__item">
+          <div className="color-block" style={style}>
+            <div className="color-block__name">
+              {color.name}
+:
+              {color.hex}
             </div>
           </div>
         </div>
@@ -21,10 +23,10 @@ class Colors extends Component {
     });
 
     return (
-      <div class="color-block-group">
+      <div className="color-block-group">
         {items}
       </div>
-    )
+    );
   }
 
   render() {
@@ -44,7 +46,7 @@ class Colors extends Component {
 
 
       </PageSection>
-    )
+    );
   }
 }
 

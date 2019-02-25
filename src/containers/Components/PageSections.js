@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { PageSection } from 'all-digital-components'
+import React, { Component } from 'react';
+import { PageSection } from 'all-digital-components';
 
 class PageSections extends Component {
   render() {
@@ -30,7 +30,7 @@ class PageSections extends Component {
           <h2>Page Section Overlay Image Left</h2>
         </PageSection>
       </div>
-    )
+    );
   }
 }
 

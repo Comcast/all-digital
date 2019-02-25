@@ -1,5 +1,4 @@
-export const includeEverything =
-`@import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
+export const includeEverything = `@import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
 
 @include xfinity-standard-thin;
 @include xfinity-standard-thin-italic;
@@ -19,8 +18,7 @@ export const includeEverything =
 @import '../../node_modules/all-digital/assets/sass/all-digital';`;
 
 
-export const takeWhatYouNeed =
-`@import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
+export const takeWhatYouNeed = `@import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
 
 @include xfinity-standard-regular;
 @include xfinity-standard-regular-italic;
@@ -34,8 +32,7 @@ export const takeWhatYouNeed =
 @import '../../node_modules/all-digital/assets/sass/all-digital/components/card';
 @import '../../node_modules/all-digital/assets/sass/all-digital/keyframes';`;
 
-export const example =
-`// fonts
+export const example = `// fonts
 @import '../../node_modules/all-digital/assets/sass/xfinity_standard_fonts';
 
 @include xfinity-standard-thin;

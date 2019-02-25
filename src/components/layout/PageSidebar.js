@@ -1,15 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PageSidebar = () => {
   const body = document.querySelector('body');
   const toggleAppClass = (event) => {
-    let className = event.target.getAttribute('ui');
+    const className = event.target.getAttribute('ui');
     body.classList = [className];
   };
 
   return (
-    <aside class="page-sidebar">
+    <aside className="page-sidebar">
       <p><b>All Digital Styleguide</b></p>
 
       <nav>
@@ -109,14 +109,14 @@ const PageSidebar = () => {
         </ul>
       </nav>
 
-      <div class="app-class-toggle">
-        <button class="app-class-toggle__button app-class-toggle__button--light" onClick={toggleAppClass} ui="ui-light"><span class="visuallyhidden">Light</span></button>
-        <button class="app-class-toggle__button app-class-toggle__button--dark" onClick={toggleAppClass} ui="ui-dark"><span class="visuallyhidden">Dark</span></button>
-        <button class="app-class-toggle__button app-class-toggle__button--grey" onClick={toggleAppClass} ui="ui-grey"><span class="visuallyhidden">Grey</span></button>
-        <button class="app-class-toggle__button app-class-toggle__button--blue" onClick={toggleAppClass} ui="ui-blue"><span class="visuallyhidden">Blue</span></button>
+      <div className="app-class-toggle">
+        <button className="app-class-toggle__button app-class-toggle__button--light" onClick={toggleAppClass} ui="ui-light"><span className="visuallyhidden">Light</span></button>
+        <button className="app-class-toggle__button app-class-toggle__button--dark" onClick={toggleAppClass} ui="ui-dark"><span className="visuallyhidden">Dark</span></button>
+        <button className="app-class-toggle__button app-class-toggle__button--grey" onClick={toggleAppClass} ui="ui-grey"><span className="visuallyhidden">Grey</span></button>
+        <button className="app-class-toggle__button app-class-toggle__button--blue" onClick={toggleAppClass} ui="ui-blue"><span className="visuallyhidden">Blue</span></button>
       </div>
     </aside>
-  )
-}
+  );
+};
 
-export default PageSidebar
+export default PageSidebar;
