@@ -1,16 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { HashRouter as Router } from 'react-router-dom'
-import Root from './containers/Root'
-import configureStore from './store/configureStore'
+import App from './containers/App'
 
 require('./sass/style.scss');
 
-const store = configureStore();
-
 render(
   <Router>
-    <Root store={store} />
+    <App />
   </Router>,
   document.getElementById('root')
 )

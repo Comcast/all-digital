@@ -3,109 +3,78 @@
   "version": "0.0.1",
   "private": true,
   "homepage": "https://comcast.github.io/all-digital",
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "redux-devtools": "^3.4.0",
-    "redux-devtools-dock-monitor": "^1.1.2",
-    "redux-devtools-log-monitor": "^1.3.0",
-    "redux-logger": "^3.0.6",
-    "webpack-bundle-analyzer": "^2.9.0"
-  },
   "dependencies": {
-    "all-digital": "git+https://github.com/Comcast/all-digital.git#v2.2.0",
-    "all-digital-components": "git+ssh://git@github.comcast.com:Xfinity/all-digital-components.git#v0.6.0",
-    "autoprefixer": "7.1.1",
-    "babel-core": "6.25.0",
-    "babel-eslint": "7.2.3",
-    "babel-jest": "20.0.3",
-    "babel-loader": "7.0.0",
-    "babel-preset-react-app": "^3.0.1",
-    "babel-runtime": "6.23.0",
-    "case-sensitive-paths-webpack-plugin": "2.1.1",
-    "chalk": "1.1.3",
-    "css-hot-loader": "^1.3.0",
-    "css-loader": "0.28.4",
-    "dotenv": "4.0.0",
-    "eslint": "3.19.0",
-    "eslint-config-react-app": "^1.0.5",
-    "eslint-loader": "1.7.1",
-    "eslint-plugin-flowtype": "2.34.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "5.0.3",
-    "eslint-plugin-react": "7.1.0",
-    "extract-text-webpack-plugin": "^2.1.2",
-    "file-loader": "0.11.2",
-    "fs-extra": "3.0.1",
-    "html-webpack-plugin": "2.29.0",
-    "humps": "^2.0.0",
-    "jest": "20.0.4",
-    "lodash": "^4.16.1",
-    "node-sass": "^4.5.3",
-    "normalizr": "^3.2.3",
-    "postcss-flexbugs-fixes": "^3.2.0",
-    "postcss-loader": "^2.0.6",
-    "preact": "^8.2.1",
-    "preact-compat": "^3.17.0",
-    "react": "^15.5.0",
-    "react-dev-utils": "^3.0.2",
-    "react-dom": "^15.5.0",
-    "react-error-overlay": "^1.0.9",
-    "react-redux": "^5.0.5",
-    "react-router-dom": "^4.1.2",
-    "redux": "^3.5.2",
-    "redux-thunk": "^2.1.0",
-    "sass-loader": "^6.0.6",
-    "style-loader": "0.18.2",
-    "sw-precache-webpack-plugin": "0.11.3",
-    "url-loader": "0.5.9",
-    "webpack": "2.6.1",
-    "webpack-dev-server": "2.5.0",
-    "webpack-manifest-plugin": "1.1.0"
+    "adc-ui-components": "^2.6.0",
+    "all-digital": "git+https://github.com/Comcast/all-digital.git#v2.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-app-polyfill": "^0.1.3",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-test-renderer": "^16.7.0"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
-    "deploy": "gh-pages -d build"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
-    "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.js?(x)",
-      "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
-    ],
-    "testEnvironment": "node",
-    "testURL": "http://localhost",
-    "transform": {
-      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
-      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
-    ],
-    "moduleNameMapper": {
-      "^react-native$": "react-native-web"
-    },
-    "moduleFileExtensions": [
-      "web.js",
-      "js",
-      "json",
-      "web.jsx",
-      "jsx"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "verify": "CI=true npm run test && CI=true npm run build",
+    "lint": "eslint './src/**/*.js'"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "airbnb",
+      "plugin:jest/recommended"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "plugins": [
+      "jest"
+    ],
+    "rules": {
+      "react/prop-types": false,
+      "react/jsx-filename-extension": false,
+      "jsx-a11y/label-has-for": 0,
+      "jsx-a11y/label-has-associated-control": [
+        2,
+        {
+          "controlComponents": [
+            "FormControl"
+          ]
+        }
+      ]
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie < 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {},
+  "jest": {
+    "coverageReporters": [
+      "text-summary",
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 12,
+        "branches": 7,
+        "functions": 22,
+        "lines": 17
+      }
+    },
+    "collectCoverageFrom": [
+      "!src/containers/Core/**/*.{js}",
+      "!src/store/**/*.{js}",
+      "src/**/*.{js}"
+    ]
   }
 }
