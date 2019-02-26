@@ -203,6 +203,7 @@
   @include respond-to(1024) {
     @include font-size($body1-size-large);
     line-height: calc-target($body1-height-large, $body1-size-large, 1);
+    color: $body1-color-large;
   }
 
   @include ui-dark {
