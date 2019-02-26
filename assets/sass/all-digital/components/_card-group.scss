@@ -1,12 +1,20 @@
 .card-group {
+  @include boxShadow;
+  margin: 0 0 12px #{-($wrapper-gutters + 1px)};
+  width: calc(100% + #{($wrapper-gutters * 2 + 2px)});
   margin-bottom: 24px;
+
+  @include respond-to(768) {
+    width: auto;
+    margin-left: 0;
+  }
 }
 
 .card-group__item {
-  margin-top: -1px;
+  border-top: 1px solid $card-border-color;
 
   &:first-child {
-    margin-top: 0;
+    border-top: 0;
 
     > .card {
       border-top-left-radius: 3px;
@@ -22,7 +30,10 @@
   }
 
   > .card {
+    width: 100%;
+    margin-left: 0;
     margin-bottom: 0;
     border-radius: 0;
+    box-shadow: none;
   }
 }

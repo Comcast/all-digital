@@ -3,7 +3,7 @@
   margin: 0 0 12px;
   line-height: calc-target($display1-height, $display1-size, 1);
   color: $display1-color;
-  font-weight: 100;
+  font-weight: 700;
   text-transform: none;
   font-family: $primary-font-stack;
   letter-spacing: 0.2px;
@@ -35,7 +35,7 @@
   margin: 0 0 12px;
   line-height: calc-target($display2-height, $display2-size, 1);
   color: $display2-color;
-  font-weight: 100;
+  font-weight: 700;
   text-transform: none;
   font-family: $primary-font-stack;
   letter-spacing: 0.2px;
@@ -67,7 +67,7 @@
   margin: 0 0 12px;
   line-height: calc-target($display3-height, $display3-size, 1);
   color: $display3-color;
-  font-weight: 100;
+  font-weight: 700;
   text-transform: none;
   font-family: $primary-font-stack;
   letter-spacing: 0.2px;
@@ -99,7 +99,7 @@
   margin: 0 0 12px;
   line-height: calc-target($heading1-height, $heading1-size, 1);
   color: $heading1-color;
-  font-weight: 100;
+  font-weight: 500;
   text-transform: none;
   font-family: $primary-font-stack;
   letter-spacing: 0.2px;
@@ -131,7 +131,7 @@
   margin: 0 0 12px;
   line-height: calc-target($heading2-height, $heading2-size, 1);
   color: $heading2-color;
-  font-weight: 200;
+  font-weight: 500;
   text-transform: none;
   font-family: $primary-font-stack;
   letter-spacing: 0.2px;
@@ -163,7 +163,7 @@
   margin: 0 0 12px;
   line-height: calc-target($heading3-height, $heading3-size, 1);
   color: $heading3-color;
-  font-weight: 200;
+  font-weight: 500;
   text-transform: none;
   font-family: $primary-font-stack;
   letter-spacing: 0.2px;
@@ -203,6 +203,7 @@
   @include respond-to(1024) {
     @include font-size($body1-size-large);
     line-height: calc-target($body1-height-large, $body1-size-large, 1);
+    color: $body1-color-large;
   }
 
   @include ui-dark {
@@ -311,7 +312,7 @@
   font-weight: 700;
   text-transform: uppercase;
   font-family: $primary-font-stack;
-  letter-spacing: 0.5px;
+  letter-spacing: 2px;
 
   @include ui-dark {
     color: map-get($ui-dark-map, heading4-color);
@@ -335,10 +336,10 @@
   margin: 0 0 12px;
   line-height: calc-target($heading5-height, $heading5-size, 1);
   color: $heading5-color;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: $primary-font-stack;
-  letter-spacing: 0.5px;
+  letter-spacing: 2px;
 
   @include ui-dark {
     color: map-get($ui-dark-map, heading5-color);

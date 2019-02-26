@@ -1,15 +1,16 @@
 .card {
+  @include boxShadow;
   display: block;
   margin: 0 0 12px #{-($wrapper-gutters + 1px)};
   width: calc(100% + #{($wrapper-gutters * 2 + 2px)});
   padding: 18px 12px;
-  border: 1px solid $card-border-color;
   background: $card-background-color;
   position: relative;
   border-radius: 3px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  border: 1px solid transparent;
 
   @include respond-to(768) {
     padding-right: 24px;
@@ -20,12 +21,10 @@
 
   @include ui-dark {
     background: rgba(255, 255, 255, 0.1);
-    border-color: transparent;
   }
 
   @include ui-blue {
     background: rgba(255, 255, 255, 0.1);
-    border-color: transparent;
   }
 }
 
