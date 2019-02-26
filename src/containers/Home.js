@@ -33,7 +33,7 @@ const Home = () => (
 
     <code>
       <pre>
-        npm install git+https://github.com/Comcast/all-digital.git#v2.2.0
+        npm install git+https://github.com/Comcast/all-digital.git#v3.0.0
       </pre>
     </code>
 
