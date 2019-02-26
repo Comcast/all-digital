@@ -5,7 +5,7 @@
   "homepage": "https://comcast.github.io/all-digital",
   "dependencies": {
     "adc-ui-components": "^2.6.0",
-    "all-digital": "git+https://github.com/Comcast/all-digital.git#v2.7.0",
+    "all-digital": "git+https://github.com/Comcast/all-digital.git#v3.0.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-jest": "^22.0.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
