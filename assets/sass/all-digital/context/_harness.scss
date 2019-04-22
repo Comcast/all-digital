@@ -61,7 +61,12 @@
   .card {
     margin-left: -17px; // 16 padding + 1 border
     width: calc(100% + 34px); // 16 padding * 2 + 2 border
-    padding: 16px;
+    padding: 24px 16px;
+  }
+
+  .card-group__item > .card {
+    margin-left: 0;
+    width: 100%;
   }
 
   .page-section__wrapper {
