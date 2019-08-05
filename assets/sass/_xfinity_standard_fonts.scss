@@ -6,9 +6,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-thin {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Thin.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Thin.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Thin.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-thin.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-thin.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
   }
@@ -17,9 +17,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-thin-italic {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-thinitalic.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-thinitalic.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-thinitalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
   }
@@ -28,9 +28,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-extra-light {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-Extralight.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-Extralight.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-Extralight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
   }
@@ -39,9 +39,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-extra-light-italic {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-Extralightitalic.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-Extralightitalic.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-Extralightitalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
   }
@@ -50,9 +50,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-light {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Light.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Light.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Light.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-light.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-light.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
   }
@@ -61,9 +61,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-light-italic {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-lightitalic.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-lightitalic.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-lightitalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
   }
@@ -72,9 +72,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-regular {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-regular.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-regular.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
@@ -83,9 +83,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-regular-italic {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-regularitalic.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-regularitalic.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-regularitalic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
   }
@@ -94,9 +94,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-medium {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-medium.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-medium.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
   }
@@ -105,9 +105,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-medium-italic {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-mediumitalic.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-mediumitalic.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-mediumitalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
   }
@@ -116,9 +116,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-bold {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-bold.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-bold.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
   }
@@ -127,9 +127,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-bold-italic {
   @font-face {
     font-family: 'XfinityStandard';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-bolditalic.woff2') format('woff2'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-bolditalic.woff') format('woff'),
+         url('https://static.cimcontent.net/common-web-assets/fonts/xfinity-standard-optimized/xfinitystandard-bolditalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
   }
@@ -138,9 +138,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-condensed-medium {
   @font-face {
     font-family: 'XfinityStandardCondensed';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Medium.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Medium.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Medium.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/xfinitystandardCondensed-medium.woff2') format('woff2'),
+         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/xfinitystandardCondensed-medium.woff') format('woff'),
+         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/xfinitystandardCondensed-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
   }
@@ -149,9 +149,9 @@ $xfinity-standard-condensed:  'XfinityStandardCondensed', #{$xfinity-standard-fa
 @mixin xfinity-standard-condensed-bold {
   @font-face {
     font-family: 'XfinityStandardCondensed';
-    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Bold.woff2') format('woff2'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Bold.woff') format('woff'),
-         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Bold.ttf') format('truetype');
+    src: url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/xfinitystandardCondensed-bold.woff2') format('woff2'),
+         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/xfinitystandardCondensed-bold.woff') format('woff'),
+         url('https://static.cimcontent.net/fonts/latest/Xfinity_Standard_Condensed/xfinitystandardCondensed-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
   }
