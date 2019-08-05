@@ -1,3 +1,11 @@
+/* *************************************************************************
+ * Notice to users of All-Digital CSS:
+ * -------------------------------------------------------------------------
+ * The "Xfinity Standard" family of fonts is proprietary to Comcast,
+ * and no rights are granted to you to use any of the "Xfinity Standard"
+ * family of fonts.
+ * *************************************************************************/
+
 $xfinity-standard-fallback:   helvetica, arial, sans-serif;
 
 $xfinity-standard:            'XfinityStandard', #{$xfinity-standard-fallback};
