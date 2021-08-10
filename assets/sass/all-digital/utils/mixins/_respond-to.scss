@@ -14,9 +14,9 @@ $media-query-support: true !default;
       }
     } @else {
       // output content wrapped in media queries
-      @media (min-width: $media / 16 * 1em) { @content; }
+      @media (min-width: math.div($media, 16) * 1em) { @content; }
     }
-  } @elseif $mq-support == false {
+  } @else if $mq-support == false {
     // just output the content
     @if $media <= 1024 {
       @content;
