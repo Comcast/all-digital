@@ -3,5 +3,5 @@
 // ==========================================================================
 
 @function calc-target($target, $context: $base-font-size, $unit: 1em) {
-  @return $target / $context * $unit;
+  @return math.div($target, $context) * $unit;
 }
