@@ -15,14 +15,14 @@ label {
   cursor: pointer;
 }
 
-[type=text],
-[type=email],
-[type=url],
-[type=tel],
-[type=password],
-[type=search],
-[type=number],
-[type=date],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=password],
+input[type=search],
+input[type=number],
+input[type=date],
 textarea,
 select,
 .readonly {
@@ -117,8 +117,8 @@ select {
   }
 }
 
-[type=checkbox],
-[type=radio] {
+input[type=checkbox],
+input[type=radio] {
   margin: 0 calc-target(10) calc-target(10) 0;
 
   + label {
@@ -127,20 +127,20 @@ select {
   }
 }
 
-[type=submit],
-[type=button] {
+input[type=submit],
+input[type=button] {
   @include button;
 }
 
-[type=submit]:hover,
-[type=button]:hover {
+input[type=submit]:hover,
+input[type=button]:hover {
   @include button-hover;
 }
 
-[type=submit]:active,
-[type=submit]:active,
-[type=button]:active,
-[type=button]:active {
+input[type=submit]:active,
+input[type=submit]:active,
+input[type=button]:active,
+input[type=button]:active {
   @include button-active;
 }
 
